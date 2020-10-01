@@ -25,13 +25,14 @@ git clone https://github.com/islammohamed94/countries-data-retrieval-restapi.git
 ```bash
 mvn clean install
 ```
+**3. LOADING THE POSTGRESQL DATABASE FROM ITS DOCKER CONTAINER**
 
 * Run the bash script imageload.sh to add the world database to the current docker container or use the below command:
 ```bash
 docker run -d -p 5432:5432 ghusta/postgres-world-db:2.5
 ```
 
-* Now initiate the Docker container:
+* Now initiate the current Docker container:
 ```bash
 docker-compose up
 ```
