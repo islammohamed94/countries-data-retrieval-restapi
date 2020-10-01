@@ -36,6 +36,9 @@ docker run -d -p 5432:5432 ghusta/postgres-world-db:2.5
 ```bash
 docker-compose up
 ```
+
+**4. TESTING API END POINT**
+
 * Then Go to [http://localhost:8080/demo/api/countries](http://localhost:8080/demo/api/countries) to test and would specify basic authorization a username: `user` and password: `user` or username: `admin` and password: `admin` to test the endpoint of the API.
 
 * GET request to `/api/countries/BAH` returns the "country" with country_code BAH;
